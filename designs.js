@@ -21,7 +21,7 @@ function makeGrid(n, m) {
             $('#table' + i).append('<td></td>');
     }
 }
-// adds colour to cell
+// adds colour to each cell when clicked
     $('td').click(function addColor() {
         colour = $('#colorPicker').val();
 
